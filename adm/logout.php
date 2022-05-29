@@ -3,5 +3,5 @@ session_start();
 
 session_destroy();
 
-print "<script>top.location = '../index.html'</script>"
+print "<script>top.location = 'login.php'</script>"
 ?>

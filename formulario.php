@@ -70,15 +70,7 @@ body {font-family: "Lato", sans-serif}
 
         <label for="name">Telemóvel:</label>
         <input type="text" id="phone" name="telefone" required>
-        </fieldset>
 
-        <fieldset>
-        <legend><span class="number">2</span>Informações Adicionais</legend>
-        <label for="info">Info:</label>
-        <textarea id="info" name="info"></textarea>
-        </fieldset>
-        <br><br>
-        <fieldset>
         <label for="plan">Planos</label>
         <select id="plan" name="plan" required>
                 <optgroup label="Your Plan">
@@ -87,9 +79,16 @@ body {font-family: "Lato", sans-serif}
                     <option name = "alpha" value="alpha">Alpha</option>
                 </optgroup>
                 </select>
+
         </fieldset>
+
+        <fieldset>
+        <legend><span class="number">2</span>Informações Adicionais</legend>
+        <textarea id="info" name="info"></textarea>
+        </fieldset>
+        <br><br>
                 <br><br>
-        <button type="submit" name ="send">Send</button>
+        <button type="submit" name ="send">Enviar Candidatura</button>
         </form>
     </body>
 

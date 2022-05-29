@@ -13,7 +13,7 @@ if(isset($_POST['pin'])){
   
   }else{
     echo "<script>alert ('Incorrect Pin Code')</script>";
-    print "<script>top.location = '../index.html'; </script>";
+    print "<script>top.location = '../index.php'; </script>";
     session_destroy();
   }
 }
@@ -44,7 +44,7 @@ if(isset($_POST['pin'])){
 
 <body>
   <div class='w3-top'>
-  <a href="../index.html" style='color:white' class="w3-button w3-padding-large">Home</a>
+  <a href="../index.php" style='color:white' class="w3-button w3-padding-large">Home</a>
   </div>
     <div class="wrapper fadeInDown">
         <div id="formContent">
