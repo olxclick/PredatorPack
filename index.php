@@ -62,8 +62,8 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="maschool">
     <h2 class="w3-wide">Predator Pack</h2>
     <p class="w3-opacity"><i>Clube de Artes Marciais</i></p>
-    <p class="w3-justify">Wanna join a martial arts team and learn how to defend yourself, how to be more disciplined and how to improve your overall skills? Then you have everything you need in our school.<br> If you are interested, feel free to
-      send us your application and possibly improve your overall life!
+    <p class="w3-justify">Alguma vez pensaste em juntar-te a uma escola de artes marciais? Se já podemos dizer-te que encontraste a escola certa. Aqui poderás descobrir e integrar qualquer estilo de combate que desejas, desde defesa pessoal, a desportos de combate e até mesmo sessões de yoga!
+      Autentica-te no nosso site agora para poderes fazer a tua candidatura!
     </p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
@@ -90,9 +90,9 @@ body {font-family: "Lato", sans-serif}
       <p class="w3-opacity w3-center"><i>Sport Kempo || Jiujitsu || Taekwondo</i></p><br>
 
       <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <div><li style="width: 170px;"class="w3-tag">BETA-->17.5€</li><span class="w3-padding w3-margin-left">Two Days of training/week (Only one Martial Art)</span></div>
-        <div><li style="width: 170px;"class="w3-tag">OMEGA-->25€</li><span class="w3-padding w3-margin-left">Three days of training/week (Only one Martial Art) ++ Gym Plan</span></div>
-        <div><li style="width: 170px;"class="w3-tag">ALFA-->50€</li><span class="w3-padding w3-margin-left">Five days of training/week (Full Access) ++ Gym Plan</span></div>
+        <div><li style="width: 170px;"class="w3-tag">BETA-->17.5€</li><span class="w3-padding w3-margin-left">2 dias de treino semanal (Apenas 1 modalidade)</span></div>
+        <div><li style="width: 170px;"class="w3-tag">OMEGA-->25€</li><span class="w3-padding w3-margin-left">3 dias de treino semanal (Apenas 1 modalidade) +++ Plano de Treino em Casa</span></div>
+        <div><li style="width: 170px;"class="w3-tag">ALFA-->50€</li><span class="w3-padding w3-margin-left">Acesso livre +++ Plano de Treino em Casa</span></div>
       </ul>
 
       <br>
