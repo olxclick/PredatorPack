@@ -26,13 +26,10 @@ include_once '../functions/dbconnect.php';
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
-                            <th>Nome</th>
-                            <th>Idade</th>
-                            <th>Email</th>
-                            <th>Morada</th>
-                            <th>Telemóvel</th>
-                            <th>Informações</th>              
-                            <th>Planos</th>                     
+                            <th style='width: 5%; text-align: center; vertical-align: middle'>Nome</th>
+                            <th style='width: 5%; text-align: center; vertical-align: middle'>Idade</th>
+                            <th style='width: 5%; text-align: center; vertical-align: middle'>Telemóvel</th>            
+                            <th style='width: 5%; text-align: center; vertical-align: middle'>Planos</th>                     
                         </tr>
                     </thead>
                     <tbody>
@@ -48,28 +45,18 @@ include_once '../functions/dbconnect.php';
                     while($row = mysqli_fetch_assoc($result)){                                                
                         extract($row);
                         echo "  <tr>
-                                    <td style='width: 100px; text-align: center; vertical-align: middle'>
+                                    <td style='width: 5%; text-align: center; vertical-align: middle'>
                                     $cand_nome
                                     </td>
-                                    <td>
+                                    <td style='width: 5%; text-align: center; vertical-align: middle'>
                                     $cand_idade
                                     </td>
-                                    <td>
-                                    $cand_email
-                                    </td>
-                                    <td>
-                                    $cand_morada
-                                    </td>
-                                    <td>
+                                    <td style='width: 5%; text-align: center; vertical-align: middle'>
                                     $cand_telefone
                                     </td>
-                                    <td tyle='width:20%'>
-                                    $cand_info
-                                    </td>
-                                    <td>
+                                    <td style='width: 5%; text-align: center; vertical-align: middle'>
                                     $cand_plan
                                     </td>
-                                    <td>
                                 </tr>   ";
                     }
                 } else {
