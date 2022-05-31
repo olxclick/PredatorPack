@@ -3,7 +3,6 @@ if(!isset($_SESSION['admin']['stats'])){
   print"<script>top.location='login.php'</script>";
   exit;
 }
-
 include_once '../functions/dbconnect.php';
 
     $sql = "SELECT * FROM candidatos WHERE cand_id";

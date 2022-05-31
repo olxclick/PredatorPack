@@ -3,7 +3,6 @@
 	include 'functions/dbconnect.php';
 	$error = '';
 
- //login
 	if (isset($_POST['logemail'])) {
 		
 		$mail = $_POST['logemail'];
