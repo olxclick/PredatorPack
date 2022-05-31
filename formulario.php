@@ -33,9 +33,7 @@ if(isset($_POST['nome'])){
         print "<script>top.location = 'index.php';</script>"; 
     }
 }
-
 ?>
-
 <html>
 <link rel="stylesheet" href="CSS/form.css">
 <title>Predator Pack Application</title>

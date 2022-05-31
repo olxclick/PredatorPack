@@ -27,8 +27,6 @@ include_once '../functions/dbconnect.php';
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
-                        <tr>
-                            <th>ID</th>
                             <th>Nome</th>
                             <th>Idade</th>
                             <th>Email</th>
@@ -52,9 +50,6 @@ include_once '../functions/dbconnect.php';
                         extract($row);
                         echo "  <tr>
                                     <td style='width: 100px; text-align: center; vertical-align: middle'>
-                                    $cand_id
-                                    </td>
-                                    <td>
                                     $cand_nome
                                     </td>
                                     <td>

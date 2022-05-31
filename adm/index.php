@@ -31,6 +31,7 @@ if(!isset($_SESSION['admin']['stats'])){
   <a href="../index.php">Página Inicial</a>
   <a href="?id=1">Candidaturas</a>
   <a href="?id=2">Candidaturas Aceites</a>
+  <a href="?id=3">Gerir Catálogo</a>
   <a href="logout.php" style = "background-color:#A20000; float:right">Logout</a>
   </div>
 
@@ -46,6 +47,8 @@ if(!isset($_SESSION['admin']['stats'])){
           case 1: require_once 'show.php';
                   break;
           case 2: require_once 'aceites.php';
+                  break;
+          case 3: require_once 'catalogo.php';
                   break;
           case 8: require_once 'delete.php';
                   break;
