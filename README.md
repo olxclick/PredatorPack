@@ -17,7 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<a href="https://github.com/clickpy22/PredatorPack/issues"><button class="button-86" role="button">Issues</button></a>
+<button class="button-86" role="button">Issues<a href="https://github.com/clickpy22/PredatorPack/issues"></button>
 <button class="button-86" role="button">[license-url]</button>
 <button class="button-86" role="button">[linkedin-url]</button>
 
