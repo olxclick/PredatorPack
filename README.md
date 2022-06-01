@@ -140,7 +140,7 @@ Project Link: [https://github.com/clickpy22/PredatorPack](https://github.com/git
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [forks-shield]: https://img.shields.io/github/forks/clickpy22/PredatorPack.svg?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/clickpy22/PredatorPack.svg?style=for-the-badge
-[issues-url]: https://github.com/clickpy22/PredatorPackissues
+[issues-url]: https://github.com/clickpy22/PredatorPack/issues
 [license-shield]: https://img.shields.io/github/license/clickpy22/PredatorPack.svg?style=for-the-badge
 [license-url]: https://github.com/clickpy22/PredatorPack/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
