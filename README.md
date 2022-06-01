@@ -92,7 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## MainPage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
