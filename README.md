@@ -81,7 +81,7 @@
 <!-- USAGE EXAMPLES -->
 ## MainPage
 
-In this topic you can see the main page of the website in different images below
+In this topic you can get used to the main page of the website in different images shown below:
 
 <div align="center">
 <img src="img/info.png" alt="info" width="70%" height="70%">
