@@ -143,5 +143,5 @@ Project Link: [https://github.com/clickpy22/PredatorPack](https://github.com/git
 [license-shield]: https://img.shields.io/github/license/clickpy22/PredatorPack.svg?style=for-the-badge
 [license-url]: https://github.com/clickpy22/PredatorPack/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: www.linkedin.com/in/jlazaro22
 [product-screenshot]: img/screenshot.png
