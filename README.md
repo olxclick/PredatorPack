@@ -17,7 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<button class="button-86" role="button">[issues-url]</button>
+<button class="button-86" role="button" href="[issues-url]"></button>
 <button class="button-86" role="button">[license-url]</button>
 <button class="button-86" role="button">[linkedin-url]</button>
 
