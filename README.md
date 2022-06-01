@@ -96,8 +96,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+<img src="img/info.png" alt="info" width="70%" height="70%">
+<img src="img/maps.png" alt="maps" width="70%" height="70%">
+<img src="img/schedule.png" alt="schedule" width="70%" height="70%">
+<img src="img/login.png" alt="login" width="70%" height="70%">
 
 
 <!-- LICENSE -->
