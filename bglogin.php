@@ -1,4 +1,11 @@
-<?php
+<link rel="stylesheet" href="bglogin.css">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<link rel="shortcut icon" type="image/x-icon" href="images/PREDATOR PACK V4 laranja.jpg"/>
+  <h1>
+
+  <?php
 	session_start();
 	include 'functions/dbconnect.php';
 	$error = '';
@@ -49,7 +56,6 @@
 	<head>
 		<link rel="stylesheet" href="CSS/log.css">
 		<title>Predator Pack</title>
-		<link rel="shortcut icon" type="image/x-icon" href="images/PREDATOR PACK V4 laranja.jpg"/>
 		<script src="jquery-3.2.1.min.js"></script>
 
 		
@@ -57,8 +63,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    
-    
 
 	</head>
 	<body>
@@ -135,3 +139,7 @@ signInButton.addEventListener('click', () => {
 		}
 	});
 </script>
+
+
+  </h1>
+</div>

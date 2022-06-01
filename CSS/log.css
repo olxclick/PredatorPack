@@ -17,6 +17,7 @@ body {
 h1 {
     font-weight: bold;
     margin: 0;
+    font-size: xx-large;
 }
 
 h2 {
@@ -44,8 +45,8 @@ a {
 
 button {
     border-radius: 20px;
-    border: 1px solid #ac1a00;
-    background-color: #ac1a00;
+    border: 1px solid #A52422;
+    background-color: #A52422;
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;

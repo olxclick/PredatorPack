@@ -41,7 +41,7 @@ body {font-family: "Lato", sans-serif}
         <?php
       }else{
           ?>
-          <a href="userlogin.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Login</a>
+          <a href="bglogin.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Login</a>
           <?php
       }
       
