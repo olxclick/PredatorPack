@@ -121,20 +121,9 @@ Project Link: [https://github.com/clickpy22/PredatorPack]
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [](MIMIMI)
-* []()
-* []()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/clickpy22/PredatorPack.svg?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/clickpy22/PredatorPack.svg?style=for-the-badge
 [issues-url]: https://github.com/clickpy22/PredatorPack/issues
 [license-shield]: https://img.shields.io/github/license/clickpy22/PredatorPack.svg?style=for-the-badge
