@@ -34,7 +34,7 @@
 <h3 align="center">PredatorPack</h3>
 
   <p align="center">
-    project_description
+    This project is a website that allows a martial arts school to control whoever applies to it. In the main website you have useful information such as the martial arts the school has, as well as location, plans to train and more. Any user that wants to apply to the school must create an account and be logged in so that they can submit their data to the admins.
     <br />
     <a href="https://github.com/clickpy22/PredatorPack/issues">Report Bug</a>
     ·
