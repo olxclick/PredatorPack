@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/clickpy22/PredatorPack/">
-    <img src="img/logo.png" alt="Logo" width="150" height="150">
+    <img src="img/logo.png" alt="Logo" width="50%" height="50%">
   </a>
 
 <h3 align="center">PredatorPack</h3>
