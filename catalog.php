@@ -15,7 +15,11 @@ include_once 'functions/dbconnect.php';
         // Foram encontrados resgistos
         while($row = mysqli_fetch_assoc($result)){                                                
             extract($row);
-echo"
+?>
+
+<html>
+<body>
+
 <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
   <div class='hotSale'>
     <center><i class='fa fa-fire' aria-hidden='true'></i>
@@ -44,7 +48,7 @@ echo"
       </div>
     </div>
   </div>
-</div>"
+</div>
 
-?>
-
+</body>
+</html>
