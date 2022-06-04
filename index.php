@@ -37,6 +37,7 @@ body {font-family: "Lato", sans-serif}
       if(!isset($_SESSION["account"]) !== true){
           ?>
           <a href="formulario.php?userid=<?php echo $_SESSION['account']['userID']?>"class="w3-bar-item w3-button w3-padding-large w3-hide-small">Candidatura</a>
+          <a href="catalogopag.php"class="w3-bar-item w3-button w3-padding-large w3-hide-small">Catálogo</a>
           <a href="logout.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Logout</a>
         <?php
       }else{

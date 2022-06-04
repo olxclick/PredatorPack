@@ -48,9 +48,9 @@ if(!isset($_SESSION['admin']['stats'])){
                   break;
           case 2: require_once 'aceites.php';
                   break;
-          case 3: require_once '../catalogo/bikes.php';
+          case 3: require_once 'bikes.php';
                   break;
-          case 4: require_once '../catalogo/bikesDelete.php';
+          case 4: require_once 'bikesDelete.php';
                   break;
           case 8: require_once 'delete.php';
                   break;
