@@ -1,29 +1,21 @@
-<?php
-    /*  session_start();
-      $email =$_SESSION['email']; 
-      if (!isset($_SESSION['email'])) {
-      header("location: index.php");
-}*/
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TopBikes | Catálogo de bicicletas</title>
+    <title>Catálogo de Produtos</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/PREDATOR PACK V4 laranja.jpg"/>
+    <link rel="stylesheet" href="catalog.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <div class="container-fluid tm-container-content tm-mt-60">
-        <div class="row mb-4">
-            <h2 class="col-6 tm-text-primary">
-                Catálogo
-            </h2>
-        </div>
-        <div class="row tm-mb-90 tm-gallery">
+
+<body bgcolor="black">
+
+<div class='w3-top'>
+    <a href="index.php" style='color:white' class="w3-button w3-padding-large">Voltar</a>
+</div>
+<br><br>
+        <div class="container" style="display:flex;">
         	<?php
                                             // Incluir ficheiro de funções
                                             include_once 'functions/dbconnect.php';
@@ -42,22 +34,28 @@
                                                 // Foram encontrados resgistos
                                                 while($row = mysqli_fetch_assoc($result)){                                                
                                                     extract($row);
-                                                    echo "
-                                                    <div class='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5'>
-                        <img src='images/bike/$prod_img' alt='Image' class='img-fluid'>
-                            <h2>$prod_nome</h2>               
-                    <div class='d-flex justify-content-between tm-text-gray'>
-                        <span style='color: black;'><b>$prod_desc</b></span>
-                        <span>$prod_price€</span>
-                    </div>
-            </div>
-                                                    ";       
+                                                ?>
+                                                <div class='card'>
+                                                <div class='card-header'>
+                                                  <img style="width:100%; height:100%;"src="images/bike/<?php echo $prod_img?>"   >
+                                                </div>
+                                                <div class="card-body">
+                                            
+                                                  <h3>
+                                                  <?php echo $prod_nome ?> 
+                                                  </h3>
+                                                  <span><?php echo $prod_desc?></span>
+                                                  <p>
+                                                    Preço: 
+                                                   <?php echo $prod_price?>€
+                                                  </p>
+                                            
+                                                </div>
+                                              </div>   
+                                                  <?php    
                                                 }
                                             }
-                                        ?> 
-            
-                     
-        </div> <!-- row -->
+                                        ?>
     </div> <!-- container-fluid, tm-container-content -->
     
     <script src="js/plugins.js"></script>
@@ -67,6 +65,6 @@
         });
     </script>
 
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-grey w3-xlarge">
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-grey w3-xlarge"></footer>
 </body>
 </html>

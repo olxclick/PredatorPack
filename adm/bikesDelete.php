@@ -17,7 +17,7 @@
         $row = mysqli_fetch_assoc($result);
         extract($row); // extrai valores (KEY) do array
         // Elimina o ficheiro de imagem
-        unlink("../images/bike/$bike_img");
+        unlink("../images/bike/$prod_img");
     }
     //Sintaxe da instrução MYSQL DELETE ...
     //DELETE FROM tabela WHERE condição     
