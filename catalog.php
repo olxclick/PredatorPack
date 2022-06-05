@@ -34,8 +34,6 @@ include_once 'functions/dbconnect.php';
         </div>
       </div>
     </div>
-      
-    
     <div class='thumbsWrapper row'>
       <div class='col-lg-4 col-md-4 col-sm-4 col-xs-4'>
         <h2>$prod_nome</h2>
