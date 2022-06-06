@@ -38,7 +38,7 @@ if(isset($_POST['nome'])){
 
 <html>
 <link rel="stylesheet" href="CSS/form.css">
-<title>Predator Pack Application</title>
+<title>Enviar Candidatura</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="images/PREDATOR PACK V4 laranja.jpg" />

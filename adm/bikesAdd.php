@@ -15,7 +15,6 @@
       // INSERT INTO tabela (campo1, campo2, ...) VALUES(valor1, valor2, ...)
       $query = "INSERT INTO produtos (prod_nome, prod_desc, prod_price, prod_img) VALUES('$bikeMarca','$bikeModelo', $bikePreco,'$image')";
       $result = mysqli_query($connect, $query); //Executa a instrução MYSQL
-
       if($result) {
         echo "<script>alert('Dados guardados com sucesso');</script>";
         print "<script>top.location = 'index.php?id=3';</script>";

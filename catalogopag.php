@@ -65,6 +65,6 @@
         });
     </script>
 
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-grey w3-xlarge"></footer>
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-grey w3-xlarge"><span class="w3-red">Nota:</span><h5>Esta página serve apenas para mostrar o que é possível comprar na escola física, não sendo permitido realizar qualquer tipo de compra online.</h5></footer>
 </body>
 </html>
