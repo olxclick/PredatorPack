@@ -11,7 +11,7 @@
               <div class="title_right">
                 <div class="col-md-5 col-sm-5  form-group pull-right top_search">
                   <div class="input-group">
-                   	<button type="button" onclick="location.href='bikesAdd.php'" class="btn btn-round btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar Produto</button>
+                  <button type='button' onclick='location.href="bikesAdd.php";' class='btn'>Adicionar Produto</i></button>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                                             <td style='width: 5%; text-align: center; vertical-align: middle'>$prod_desc</td>
                                             <td style='width: 5%; text-align: center; vertical-align: middle'>$prod_price €</td>
                                             <td style='width: 5%; text-align: center; vertical-align: middle'>
-                                            <button type='button' onclick='location.href=\"?id=4&prodID=$prod_id\";' class='btn btn-round btn-danger'>&nbsp;&nbsp;<i class='fa fa-trash-o'></i>&nbsp;&nbsp;</button>
+                                            <button type='button' style='bgcolor:red' onclick='location.href=\"?id=4&prodID=$prod_id\";' class='btn btn-round btn-danger'><i class='fa fa-trash-o'></i></button>
                                             </td>   
                                        </tr>";
                               }

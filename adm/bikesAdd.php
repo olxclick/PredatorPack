@@ -45,7 +45,6 @@
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                  <h3>Preencha o formulário com os dados do produto</h3>
                   <div class="clearfix"></div>
                 </div>
                 <div class="x_content">

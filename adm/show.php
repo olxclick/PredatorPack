@@ -72,7 +72,7 @@ if(!isset($_SESSION['admin']['stats'])){
                 }
             } else {
                 echo "  <tr>
-                            <td colspan='3'>No data available...</td>
+                            <td colspan='3'>Não existem dados...</td>
                         </tr> ";
             }
         ?>  
