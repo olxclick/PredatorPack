@@ -76,7 +76,7 @@
 					<input type="email" id="regemail" name ="regemail" placeholder="Email"/>
 					<input type="password" id= "regpass" name ="regpass" placeholder="Password"/>
 					<br>
-					<button type="submit" >Registar</button>
+					<button type="submit">Registar</button>
 
 				</form>
 			</div>
