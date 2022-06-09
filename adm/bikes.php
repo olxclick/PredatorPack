@@ -18,7 +18,6 @@
             </div>
             
             <div class="clearfix"></div>
-
             <div class="row">
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
@@ -61,6 +60,7 @@
                                             <td style='width: 5%; text-align: center; vertical-align: middle'>$prod_price €</td>
                                             <td style='width: 5%; text-align: center; vertical-align: middle'>
                                             <button type='button' style='bgcolor:red' onclick='location.href=\"?id=4&prodID=$prod_id\";' class='btn btn-round btn-danger'><i class='fa fa-trash-o'></i></button>
+                                            <button type='button' style='bgcolor:red' onclick='location.href=\"?id=5&prodID=$prod_id\";' class='btn btn-round btn-danger'><i class='fa fa-edit'></i></button>
                                             </td>   
                                        </tr>";
                               }

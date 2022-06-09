@@ -52,6 +52,8 @@ if(!isset($_SESSION['admin']['stats'])){
                   break;
           case 4: require_once 'bikesDelete.php';
                   break;
+          case 5: require_once 'bikesEdit.php';
+                  break;
           case 8: require_once 'delete.php';
                   break;
           case 7: require_once 'mimi.php';

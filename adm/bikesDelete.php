@@ -1,7 +1,7 @@
 <?php
     // Verifica se existe a variável no endereço
     if(!isset($_GET['prodID'])){// se não existir volta à página
-        print "<script>top.location = 'public.php?id=2';</script>";
+        print "<script>top.location = 'index.php?id=1';</script>";
         exit();
     }
 
