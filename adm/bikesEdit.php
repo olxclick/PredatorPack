@@ -39,8 +39,8 @@ if (mysqli_num_rows($result2) != 0) {
         echo "<script>alert('ERRO!!! Dados não guardados...');</script>";
       }
     }
-      
 ?>
+
 <div class=''>
             <div class='page-title'>
               <div class='title_left'>

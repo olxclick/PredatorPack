@@ -61,7 +61,7 @@ if(isset($_POST['pin'])){
           <form method="post">
             <input style ="width: 150px; height:24px;" type="password" id="pin" class="fadeIn second" name="pin" placeholder="PIN">
             <br><br>
-            <input type="submit" class="fadeIn fourth" style="background-color: gray" value="Log In">           
+            <input type="submit" class="fadeIn fourth" style="background-color: gray; font-family: arial" value="LogIn">           
           </form>
         </div>
 </body>

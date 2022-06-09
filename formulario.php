@@ -26,10 +26,10 @@ if(isset($_POST['nome'])){
      WHERE `cand_id` = '$id'";
 
     if(mysqli_query($connect, $sql)){
-        echo "<script>alert('Application Sent! Wait for your answer.');</script>";
+        echo "<script>alert('Candidatura enviada! Irá receber uma resposta por email brevemente.');</script>";
         print "<script>top.location = 'index.php';</script>"; 
     }else{
-        echo "<script>alert('We were unable to send your application!');</script>";
+        echo "<script>alert('Erro!');</script>";
         print "<script>top.location = 'index.php';</script>"; 
     }
 }
