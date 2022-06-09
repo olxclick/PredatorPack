@@ -1,18 +1,21 @@
 <?php
-    
-    $prodID = intval($_GET['prodID']);
 
-    $query2 = "SELECT prod_id, prod_nome, prod_desc, prod_price, prod_img FROM produtos WHERE prod_id = $prodID";
-    $result2 = mysqli_query($connect, $query2); // Executa a instrução MYSQL
-    //Verificar se foram encontrados registos
-    if (mysqli_num_rows($result2) != 0) {
-        //Foram encontrados registos
-        while($row = mysqli_fetch_assoc($result2)) {
-          extract($row);
+include_once '../functions/dbconnect.php';
+
+$query2 = "SELECT prod_id, prod_nome, prod_desc, prod_price, prod_img FROM produtos WHERE prod_id = $prodID";
+$result2 = mysqli_query($connect, $query2); // Executa a instrução MYSQL
+
+if (mysqli_num_rows($result2) != 0) {
+  //Foram encontrados registos
+  while($row = mysqli_fetch_assoc($result2)) {
+    extract($row);
+  }
+}
+    $prodID = intval($_GET['prodID']);
 
     if(isset($_POST['bike-marca'])) {
       //Incluir ficheiro de funções
-      include_once '../functions/dbconnect.php';
+
       //Tratamento das variáveis do formulário
       $bikeMarca = addslashes($_POST['bike-marca']);  // NOME DO PRODUTO
       $bikeModelo = addslashes($_POST['bike-modelo']); // DESCRIÇÃO DO PRODUTO
@@ -34,6 +37,7 @@
         echo "<script>alert('ERRO!!! Dados não guardados...');</script>";
       }
     }
+      
 ?>
 
 <?php
@@ -109,4 +113,5 @@ echo "
           </div>
         </div>
         </div>
-        
+";
+?>
