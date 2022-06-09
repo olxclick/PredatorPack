@@ -72,7 +72,7 @@
                       <label class="col-form-label col-md-3 col-sm-3 label-align" for="bike-modelo">Descrição<span class="required"></span>
                       </label>
                       <div class="col-md-6 col-sm-6 ">
-                        <textarea id=bike-modelo name=bike-modelo></textarea>
+                        <input id=bike-modelo name=bike-modelo></input>
                       </div>
                     </div>
 
