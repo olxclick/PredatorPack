@@ -22,18 +22,21 @@ $CandID = intval($_GET['CandID']);
     $message = file_get_contents('mail/template.html');
     $message = str_replace('%testusername%', $cand_nome, $message); 
     $mail = new PHPMailer;
-    $mail->isSMTP();
-    $mail->Host='smtp.gmail.com';
-    $mail->Port=587;
-    $mail->SMTPAuth=true;
-    $mail->SMTPSecure='tls';
+    $mail->IsSMTP();
+    $mail->Host = 'smtp.sapo.pt';
+    $mail->SMTPAuth = true;                  
+    $mail->Username='autopredatorpack@sapo.pt';
+    $mail->Password='miauFRUFRU123';
+    $mail->SMTPSecure = "tls";  
+    $mail->Port = 25;
 
-    $mail->Username='joaoplazaro11@gmail.com';
-    $mail->Password='</TRYhard098#->';
 
-    $mail->setFrom('joaoplazaro11@gmail.com','Clube Predator Pack');
+
+   
+
+    $mail->setFrom('autopredatorpack@sapo.pt','Clube Predator Pack');
     $mail->addAddress($cand_email);
-    $mail->addReplyTo('joaoplazaro11@gmail.com');
+    $mail->addReplyTo('autopredatorpack@sapo.pt');
     $mail->CharSet='UTF-8';
     $mail->isHTML(true);
     $mail->Subject='Resposta à sua candidatura';
