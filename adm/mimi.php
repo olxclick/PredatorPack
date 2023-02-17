@@ -25,8 +25,8 @@ $CandID = intval($_GET['CandID']);
     $mail->IsSMTP();
     $mail->Host = 'smtp.sapo.pt';
     $mail->SMTPAuth = true;                  
-    $mail->Username='autopredatorpack@sapo.pt';
-    $mail->Password='miauFRUFRU123';
+    $mail->Username=''; //your email
+    $mail->Password=''; //your email password
     $mail->SMTPSecure = "tls";  
     $mail->Port = 25;
 
@@ -34,9 +34,9 @@ $CandID = intval($_GET['CandID']);
 
    
 
-    $mail->setFrom('autopredatorpack@sapo.pt','Clube Predator Pack');
+    $mail->setFrom('','Title'); //your email | title of the email
     $mail->addAddress($cand_email);
-    $mail->addReplyTo('autopredatorpack@sapo.pt');
+    $mail->addReplyTo(''); //your email
     $mail->CharSet='UTF-8';
     $mail->isHTML(true);
     $mail->Subject='Resposta à sua candidatura';
