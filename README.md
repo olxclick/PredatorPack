@@ -105,6 +105,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 João Lázaro  - joaolazaro720@gmail.com
 
 Project Link: https://github.com/clickpy22/PredatorPack
+Linkedin Profile: www.linkedin.com/in/jlazaro22/
 
 
 
