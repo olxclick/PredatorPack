@@ -29,8 +29,9 @@
 <h3 align="center">PredatorPack</h3>
 
   <p align="center">
-    This project is a website that allows a martial arts school to control whoever applies to it. In the main website you have useful information such as the martial arts the school has, as well as location, plans to train and more. <p>
+    This project is a website that allows a martial arts school to control all of their applicants and accept or refuse their application (confirmation sent via email with SMTP). In the main website you have useful information such as the martial arts the school has, as well as location, plans to train and more. <p>
     Any user that wants to apply to the school must create an account and be logged in so that they can submit their data to the admins.
+    There is also a page that can show the products currently available at the school for in store purchasing, which can be controlled by the admins in the admin section. So basically i have developed a simple CRUD system for products.
     <br />
     <a href="https://github.com/clickpy22/PredatorPack/issues">Report Bug</a>
     ·
